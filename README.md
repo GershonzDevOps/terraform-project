@@ -1,4 +1,4 @@
-# Terraform First Project
+# Terraform Project
 
 This is my first Terraform project, which includes:
 
