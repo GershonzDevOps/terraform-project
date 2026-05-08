@@ -1,22 +1,29 @@
-# Terraform Project
+# AWS Infrastructure Automation with Terraform
 
-This is my first Terraform project, which includes:
+This project demonstrates Infrastructure as Code (IaC) using Terraform to provision and manage AWS cloud resources in an automated and repeatable manner.
 
-- Creating an IAM user named `devops`
-- Creating an S3 bucket with force_destroy enabled
-- Using Terraform CLI to initialize, plan, apply, and destroy infrastructure
-- GitHub version control without uploading the `.terraform` folder
+## Technologies Used
+- Terraform
+- AWS IAM
+- AWS S3
+- GitHub
 
-## COMMANDS USED
+## Features
+- Provisioned AWS IAM users
+- Created and managed S3 buckets using Terraform
+- Implemented Terraform variable and output configurations
+- Managed infrastructure lifecycle using Terraform CLI
+- Applied Git version control best practices with GitHub
+- Configured `.gitignore` to exclude Terraform state and local files
 
-```bash
-terraform init  
-terraform fmt  
-terraform validate  
-terraform plan  
-terraform apply  
-terraform destroy  
+## Terraform Commands Used
+terraform init
 
-## REGION
+terraform plan
 
-`us-east-1
+terraform apply
+
+terraform destroy
+
+## Project Purpose
+The goal of this project was to gain hands-on experience with Terraform and AWS cloud infrastructure automation while following Infrastructure as Code best practices.
